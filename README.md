@@ -11,6 +11,7 @@ Make sure to ``chmod +x <scriptname>`` them and set ther aliases for better acce
 
 ### Yoink 
 #### This is a simple script which can be used to copy the contents of a text or a file with ascii data to your clipboard.
+### pre requisites: ``xclip``
 Assuming the alias for yoink.sh is ``yoink``
 To use it just do:
 ```bash
