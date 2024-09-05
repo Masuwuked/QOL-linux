@@ -12,6 +12,11 @@ if [[ ! -f "$FILE" ]] then
         exit 1
 fi
 
-cat $FILE | xclip -selection clipboard
-
-echo "Yoinked!"
+if [[ $(file --mime-type -b "$FILE") =~ ^image/ ]]; then
+    extension=$(file -b --mime-type $FILE)
+    xclip -t "$extension" -i "$FILE"
+    echo "image? still yoinked!"
+else
+    cat $FILE | xclip -selection clipboard
+    echo "Yoinked!"
+fi
