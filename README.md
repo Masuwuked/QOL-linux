@@ -2,3 +2,9 @@
 
 This is a personal collection of my scripts which i use in my setup to make my life easier.
 
+Make sure to ``chmod +x <scriptname>`` them and set ther aliases for better accessibility
+### Yoink 
+#### This is a simple script which can be used to copy the contents of a text or a file with ascii data to your clipboard.
+Assuming the alias for yoink.sh is yoink
+To use it just do:
+````yoink <path_to_filename>```
