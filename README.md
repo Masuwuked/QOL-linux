@@ -7,4 +7,7 @@ Make sure to ``chmod +x <scriptname>`` them and set ther aliases for better acce
 #### This is a simple script which can be used to copy the contents of a text or a file with ascii data to your clipboard.
 Assuming the alias for yoink.sh is yoink
 To use it just do:
-````yoink <path_to_filename>```
+```bash
+yoink <path_to_filename>
+
+```
