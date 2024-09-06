@@ -19,3 +19,5 @@ To use it just do:
 yoink <path_to_filename>
 ```
 #### This script converts any input image files to a png image which temporarily stored in /tmp/ then its copied to your clipboard 
+
+### Shot
