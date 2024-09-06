@@ -10,7 +10,7 @@ Make sure to ``chmod +x <scriptname>`` them and set ther aliases for better acce
 3. copy the aliases from ``aliases.txt`` and add them in your ``.zshrc``
 
 ### Yoink 
-#### pre requisites: ``xclip`` [clipit](https://github.com/CristianHenzel/ClipIt)
+#### pre requisites: [xclip](https://github.com/astrand/xclip) [clipit](https://github.com/CristianHenzel/ClipIt)
 #### This is a simple script which can be used to copy the contents of a text or a file with ascii data or if the file is an image to your clipboard.
 
 Assuming the alias for yoink.sh is ``yoink``
