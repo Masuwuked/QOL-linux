@@ -23,7 +23,6 @@ if [[ $(file --mime-type -b "$FILE") =~ ^image/ ]]; then
     extension=$(file -b --mime-type $FILE)
 
       cp $FILE /tmp/image.png
-      #xclip -t image/png -selection clipboard < /tmp/image.png
       copy /tmp/image.png image/png
       rm /tmp/image.png
       echo "image yoinked"
