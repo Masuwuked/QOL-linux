@@ -18,4 +18,4 @@ To use it just do:
 ```bash
 yoink <path_to_filename>
 ```
-#### This script convert any input image files to a png image which temporarily stored in /tmp/ then its copied to your clipboard 
+#### This script converts any input image files to a png image which temporarily stored in /tmp/ then its copied to your clipboard 
