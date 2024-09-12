@@ -21,3 +21,14 @@ yoink <path_to_filename>
 #### This script converts any input image files to a png image which temporarily stored in /tmp/ then its copied to your clipboard 
 
 ### Shot
+#### pre requisites: [scrot](https://google.com)
+#### A small script to take a screenshot of selected area of the screen then copying it to your clipboard. Its usage is simple:
+
+Assuming the alias for the shot.sh is ``shot``
+to use it just do:
+```bash
+shot
+```
+or you could just set a keybind to run the script
+
+### Bawal
