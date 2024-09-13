@@ -33,7 +33,7 @@ or you could just set a keybind to run the script
 
 ### Bawal
 #### pre requisites [feh](https://github.com/derf/feh), [pywal](https://github.com/dylanaraps/pywal)
-#### You need to have pywal setted up to change the colors of ur preffered applications
+#### **You need to have pywal setted up to change the colors of ur preffered applications**
 #### a simple script which used to set your wallpaper from a local file or a link:
 Assuming the alias for bawal.sh is ``bawal``
 to set the wallpaper from a link:
