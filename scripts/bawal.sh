@@ -8,9 +8,9 @@ set_wal(){
 get_link(){
 
 
-  wget $1 -O ~/wallpapers/temp_wal.png
-  wal -i ~/wallpapers/temp_wal.png
-  feh --bg-scale ~/wallpapers/temp_wal.png
+  wget $1 -O ~/temp_wal.png
+  wal -i ~/temp_wal.png
+  feh --bg-scale ~/temp_wal.png
 
 }
 
