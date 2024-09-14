@@ -4,6 +4,8 @@ This is a personal collection of my scripts which i use in my setup to make my l
 
 Make sure to ``chmod +x <scriptname>`` them and set ther aliases for better accessibility
 
+**These may or may not work in WSL**
+
 # Installation
 1. clone this repository using ``git``
 2. copy the scripts folder to your home directory.
