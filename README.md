@@ -47,3 +47,10 @@ to set the wallpaper from a local image file:
 ```bash
 bawal path/to/your/image.png
 ```
+### SendNudes
+#### pre requisites ```curl```
+#### Send Nudes is a handy script which sends your file to 0x0.st and provides you a link for sharing it:
+#### The upload limit is 512mb
+Assuming the alias for Sendnudes.sh is ``Sendnudes``
+to upload a file:<img width="251" height="236" alt="Pasted image" src="https://github.com/user-attachments/assets/71b4196c-c7cc-4591-927f-842b7e8b075b" />
+
