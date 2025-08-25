@@ -14,6 +14,9 @@ fi
 
 response=$(curl -s -X POST https://0x0.st -F "file=@${FILE_PATH}")
 
+
 echo "Response from server:"
 echo "$response"
+echo "The url has been copied!"
+echo "$response" | xclip -selection clipboard
 
